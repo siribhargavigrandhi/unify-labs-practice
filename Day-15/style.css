@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    padding: 40px;
+}
+
+.terminal {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 20px #00ff00;
+}
+
+button {
+    background-color: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+#output {
+    margin-top: 20px;
+    white-space: pre-line;
+    min-height: 200px;
+}
