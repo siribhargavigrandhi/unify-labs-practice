@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digital Pet Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🐾 Digital Pet Simulator</h1>
+
+<div class="container">
+
+  <div class="pet-card">
+    <h2 id="petName"></h2>
+    <p id="petType"></p>
+
+    <div class="stats">
+      <p>❤️ Health: <span id="health"></span></p>
+      <p>🍗 Hunger: <span id="hunger"></span></p>
+      <p>⚡ Energy: <span id="energy"></span></p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="feedPet()">🍖 Feed</button>
+      <button onclick="playWithPet()">🎾 Play</button>
+      <button onclick="restPet()">😴 Rest</button>
+    </div>
+
+    <p class="status" id="statusMessage"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
