@@ -1,0 +1,70 @@
+body
+{
+
+font-family: Arial;
+
+text-align: center;
+
+background-color: #f4f4f4;
+
+}
+
+
+button
+{
+
+padding: 10px;
+
+margin: 5px;
+
+background-color: green;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+}
+
+
+button:hover
+{
+
+background-color: darkgreen;
+
+}
+
+
+table
+{
+
+margin: auto;
+
+width: 90%;
+
+background-color: white;
+
+border-collapse: collapse;
+
+}
+
+
+th, td
+{
+
+padding: 12px;
+
+border: 1px solid gray;
+
+}
+
+
+th
+{
+
+background-color: green;
+
+color: white;
+
+}
