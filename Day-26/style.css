@@ -1,0 +1,58 @@
+body
+{
+
+font-family: Arial;
+
+text-align: center;
+
+background-color: #f2f2f2;
+
+}
+
+button
+{
+
+padding: 10px;
+
+background-color: blue;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+margin: 20px;
+
+}
+
+table
+{
+
+margin: auto;
+
+width: 70%;
+
+border-collapse: collapse;
+
+background: white;
+
+}
+
+th, td
+{
+
+padding: 12px;
+
+border: 1px solid gray;
+
+}
+
+th
+{
+
+background: blue;
+
+color: white;
+
+}
