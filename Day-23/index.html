@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unify Labs Interns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Unify Labs Intern Management</h1>
+
+<div class="form-container">
+
+    <input type="text" id="name" placeholder="Enter Name">
+
+    <input type="text" id="role" placeholder="Enter Role">
+
+    <input type="date" id="date">
+
+    <button onclick="addIntern()">Add Intern</button>
+
+</div>
+
+<h2>Intern List</h2>
+
+<table>
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Joined Date</th>
+        </tr>
+    </thead>
+
+    <tbody id="internTable">
+    </tbody>
+
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
