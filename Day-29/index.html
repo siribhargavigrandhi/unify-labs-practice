@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Blog</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>My Blog</h1>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section class="editor">
+  <h2>Create / Edit Post</h2>
+  <input type="hidden" id="postId">
+  <input type="text" id="title" placeholder="Title">
+  <input type="text" id="category" placeholder="Category">
+  <textarea id="content" placeholder="Write your content here..."></textarea>
+  <button onclick="savePost()">Save Post</button>
+</section>
+
+<section class="grid" id="postContainer"></section>
+
+<section id="singleView" class="hidden">
+  <button onclick="closePost()">⬅ Back</button>
+  <h2 id="viewTitle"></h2>
+  <p id="viewCategory"></p>
+  <div id="viewContent"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

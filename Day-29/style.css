@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  color: #333;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #121212;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #0077ff;
+  color: white;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.editor {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editor input, .editor textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.editor textarea {
+  height: 120px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.dark .card {
+  background: #1e1e1e;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
